@@ -8,18 +8,23 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+```
 1.Load the dataset from a CSV file and separate the features and target variable, encoding any categorical variables as needed.
 2.Scale the features using a standard scaler to normalize the data.
 3.Initialize model parameters (theta) and add an intercept term to the feature set.
 4.Train the linear regression model using gradient descent by iterating through a specified number of iterations to minimize the cost function.
 5.Make predictions on new data by transforming it using the same scaling and encoding applied to the training data.
+```
 
 ## Program:
+```
 /*
 Program to implement the linear regression using gradient descent.
 Developed by: A.MOHAMED SHAJID
 RegisterNumber:  212225040243
 */
+```
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -74,9 +79,11 @@ plt.xlabel("Iterations")
 plt.ylabel("Loss (MSE)")
 plt.title("Loss vs Iterations (Multiple Linear Regression)")
 plt.show()
+```
 
 ## Output:
-<img width="882" height="622" alt="image" src="https://github.com/user-attachments/assets/6240dc38-61c8-4d5f-b747-06125c6ccfcb" />
+<img width="882" height="622" alt="image" src="https://github.com/user-attachments/assets/6bbfef35-9aef-42de-a30b-8102d266e859" />
+
 
 
 
